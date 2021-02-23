@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav , a{
+    text-decoration: none;
+    background-color: aqua;
+    text-transform: uppercase;
+    padding: 2px;
+    height: 50px;
+    text-align: center;
+}
+.navlinks {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.crs{
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 16px;
+}
+.hr{
+    width: 50%;
+    margin-left: 25%;
+
+}
+.my{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.footer{
+    background-color: aqua;
+    height: 50px;
+    padding: 25px 0;
+    text-align: center;
+}
+.home{
+    /*background-color: azure;*/
+    background-image: url("images/bg.jpg");
+    height: 500px;
+
+}
+.con{
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: solid 2px snow ;
+    width: 220px;
+    height: 300px;
+    border-radius: 5px;
+}
+#btn{
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+#btn:hover{
+    background-color: dimgrey;
+    cursor: pointer;
+}
+#msg{
+    height: 100px;
+    width: 200px;
+}
+a:active{
+    color: darkred;
+}
+a:hover{
+    color: white;
+}
